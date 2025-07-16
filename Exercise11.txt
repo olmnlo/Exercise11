@@ -55,4 +55,16 @@ hey from main controller
 hey from message1
 it must find the qualifier one by one to run all output
 ----
+hey from message1
+hey from message3
+hey from message2
+hey from main controller
+Constructor of main controlller are available so it can read msg1
+----
+hey from message3
+hey from message2
+hey from message1
+hey from main controller
+it may read all the messages then find controller
+----
 also it maybe error because data is not notated
