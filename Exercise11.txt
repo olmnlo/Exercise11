@@ -46,7 +46,7 @@ hey from message1
 hey from message3
 hey from message2
 hey from main controller
-find the qualifier firs then use it
+find the qualifier first then use it
 
 Q5:
 hey from message3
