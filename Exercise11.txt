@@ -1,0 +1,56 @@
+Q1:
+hey from message1
+only one
+
+Q2:
+hey from message1
+hey from message2
+cannot print message2 until doing one and bring qualifier 1
+
+Q3:
+hey from message1
+hey from messgae3
+hey from message2
+it must find qulifier 3
+---
+hey from message3
+hey from message1
+hey from message2
+it may find qualifier 3 and wait until run message1
+---
+hey from message3
+hey from message2
+hey from message1
+it may find qualifier 3 and run message2 then go back to message1
+
+Q4:
+hey from message1
+hey from message3
+hey from message2
+hey from main controller
+find qualifier then assign it line by line
+-----
+hey from message1
+hey from main controller
+hey from message3
+hey from message2
+find the qualifier and use it directly
+-----
+hey from message1
+hey from message3
+hey from main controller
+hey from message2
+find the qualifier first then use it
+-----
+hey from message1
+hey from message3
+hey from message2
+hey from main controller
+find the qualifier firs then use it
+
+Q5:
+hey from message3
+hey from message2
+hey from main controller
+hey from message1
+it must find the qualifier one by one to run all output
